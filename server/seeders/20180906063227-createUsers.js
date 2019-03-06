@@ -35,7 +35,7 @@ const bots = [
     name: "Bot 4",
     competitorType: "AGGREGATION",
   }
-]:
+];
 
 const measurables = [
   {
