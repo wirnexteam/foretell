@@ -43,6 +43,7 @@
     "eslint"
   ],
   "dependencies": {
+    "uuid": "^3.3.2",
     "@slack/client": "^4.8.0",
     "apollo-server": "^2.1.0",
     "apollo-server-express": "^2.1.0",

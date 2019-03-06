@@ -50,7 +50,7 @@ module.exports = {
           type: Sequelize.STRING
         },
         auth0Id: {
-          allowNull: false,
+          allowNull: true,
           type: Sequelize.STRING
         },
         agentId: referenceTo("Agents", false),
