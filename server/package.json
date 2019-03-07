@@ -1,15 +1,11 @@
 {
-  "name": "express-babel",
+  "name": "foretell-api",
   "version": "1.0.0",
-  "description": "Using latest JavaScript features on the server",
+  "description": "Foretell API",
   "repository": "https://github.com/vmasto/express-babel",
   "author": "Vassilis Mastorostergios <vmasto@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
-  "engines": {
-    "node": "~9.7.1",
-    "npm": ">=6.4.0"
-  },
   "scripts": {
     "prestart": "npm run -s build",
     "start": "node dist/index.js",
@@ -30,18 +26,6 @@
     "db:seed": "node_modules/.bin/sequelize db:seed:all",
     "db:reset": "npm run db:drop; npm run db:create; npm run db:migrate"
   },
-  "keywords": [
-    "express",
-    "babel",
-    "boilerplate",
-    "scaffold",
-    "es6",
-    "es2015",
-    "es2016",
-    "es2017",
-    "jest",
-    "eslint"
-  ],
   "dependencies": {
     "uuid": "^3.3.2",
     "@slack/client": "^4.8.0",
