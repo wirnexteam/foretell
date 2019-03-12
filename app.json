@@ -1,0 +1,27 @@
+{
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "AUTH0_SECRET": {
+      "required": true
+    },
+    "SLACK_WEBHOOK_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "foretell",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
