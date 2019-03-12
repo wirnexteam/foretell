@@ -14,3 +14,6 @@ This is a simple Node.js server for the foretold application. It uses graphql/ap
 3. Run ``docker-compose ps`` there should be containers in the Up state.
 4. Run ``docker-compose logs --tail 100 -f app`` to see application logs.
 5. Set up config.json
+
+
+test PR pipeline
